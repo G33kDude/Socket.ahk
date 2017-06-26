@@ -185,7 +185,7 @@ class Socket
 		else if (lParam & this.FD_ACCEPT)
 			this.onAccept()
 		else if (lParam & this.FD_CLOSE)
-			this.Disconnect(), this.OnDisconnect()
+			this.EventProcUnregister(), this.OnDisconnect()
 	}
 	
 	EventProcRegister(lEvent)
