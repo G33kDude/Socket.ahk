@@ -6,7 +6,7 @@ SetBatchLines, -1
 Random, Rand, 1000, 9999
 
 Serv := ["chat.freenode.net", 6667]
-Chan := "#ahkscript"
+Chan := "#ahk"
 Nick := "Socket" Rand
 
 ; Create the Gui
